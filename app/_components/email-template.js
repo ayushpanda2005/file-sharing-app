@@ -85,7 +85,7 @@ export const EmailTemplate = ({
             </Column>
           </Row>
 
-          <a href={response?.shortUrl}>Click To Download</a>
+          <a href={response.shortUrl}>Click To Download</a>
           <Row style={{  paddingTop: '0' }}>
             <Column style={containerButton} colSpan={2}>
               <Button style={button}

@@ -9,6 +9,8 @@ export async function POST(req: Request) {
   try {
     // Parse the request body only once
     const response = await req.json();
+    console.log(response)
+    console.log("hi")
     const { to = 'default@example.com', subject = 'Welcome John', firstName = 'John', userName } = response;
 
     // Send email using Resend

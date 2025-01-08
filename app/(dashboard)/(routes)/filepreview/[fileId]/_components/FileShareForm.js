@@ -23,7 +23,7 @@ function FileShareForm({ file, onPasswordSave }) {
             fileName:file.fileName,
             fileSize:file.fileSize,
             fileType:file.fileType,
-            shortUrl:file.ShortUrl
+            shortUrl:file.shortUrl
     
         }
         GlobalApi.SendEmail(data).then(resp=>{
