@@ -6,7 +6,7 @@ import { app } from '../../../../firebaseConfig';
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, getFirestore, setDoc } from "firebase/firestore";
 import { useUser } from '@clerk/nextjs';
-import { generateRandomString } from '../../../../app/_utils/GenerateRandomString';
+import { generateRandomString } from '../../../../app/_utils/generateRandomString';
 import { useRouter } from 'next/navigation';
 
 function Upload() {
